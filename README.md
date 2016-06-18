@@ -30,3 +30,7 @@ Here's an example: http://codepen.io/kernelmaster/pen/GqjqQw
     <div id="tab3" class="col s12">Tab 3</div>
   </div>
   ```
+
+## More
+
+You can hide the tab indicator by adding the class `noindicator` to either your `ul.bottom_tabs` or to the corresponding `li.tab` if you want to hide the indicator only in one tab.
