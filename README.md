@@ -15,6 +15,7 @@ Here's an example: http://codepen.io/kernelmaster/pen/GqjqQw
 4. Add the attribute `data-ripple-color` to every `li`-element with the class `tab`. You can use css built-in values like `red`, `grey` etc. but also hex codes like `#212121`
 5. If you want to set an active tab, just add the `active` class as usual. If set, this will be the color used as default.
 6. This will be the result:
+
   ```
   <div class="row">
     <div class="col s12">
