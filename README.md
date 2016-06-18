@@ -10,7 +10,7 @@ Here's an example: http://codepen.io/kernelmaster/pen/GqjqQw
 ## Getting started
 
 1. Include Materialize and jQuery!
-2. Include js_bottom_tabs.css and js_bottom_tabs.js in your project
+2. Include `js_bottom_tabs.css` and `js_bottom_tabs.js` in your project
 3. Add the class `bottom_tabs` to the element with the class `tabs`
 4. Add the attribute `data-ripple-color` to every `li`-element with the class `tab`. You can use css built-in values like `red`, `grey` etc. but also hex codes like `#212121`
 5. If you want to set an active tab, just add the `active` class as usual. If set, this will be the color used as default.
