@@ -11,6 +11,12 @@ ul {
   bottom: 0px;
 }
 
+.noindicator {
+  .indicator {
+    display: none;
+  }
+}
+
 .ink {
   display: block;
   position: absolute;
