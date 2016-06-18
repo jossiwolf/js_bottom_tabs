@@ -15,10 +15,10 @@ ul li {
   background: black;
   border-radius: 100%;
   transform: scale(0);
-  &.animate {
-    animation: ripple 0.65s linear;
-    animation-fill-mode: forwards;
-  }
+}
+.ink.animate {
+  animation: ripple 0.65s linear;
+  animation-fill-mode: forwards;
 }
 
 @keyframes ripple {
@@ -27,10 +27,9 @@ ul li {
     transform: scale(2.5);
   }
 }
-
 .bottom_tabs > .tab > a > .material-icons {
-   position: relative;
-   top: 15%;
+  position: relative;
+  top: 15%;
 }
 
 .row .col {
