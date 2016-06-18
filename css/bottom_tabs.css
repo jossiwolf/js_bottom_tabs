@@ -16,6 +16,7 @@ ul li {
   border-radius: 100%;
   transform: scale(0);
 }
+
 .ink.animate {
   animation: ripple 0.65s linear;
   animation-fill-mode: forwards;
@@ -27,6 +28,7 @@ ul li {
     transform: scale(2.5);
   }
 }
+
 .bottom_tabs > .tab > a > .material-icons {
   position: relative;
   top: 15%;
