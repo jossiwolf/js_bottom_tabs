@@ -1,0 +1,29 @@
+ul li {
+  position: relative;
+  overflow: hidden;
+}
+
+.bottom_tabs {
+  overflow: hidden !important;
+  position: fixed;
+  bottom: 0px;
+}
+
+.ink {
+  display: block;
+  position: absolute;
+  background: black;
+  border-radius: 100%;
+  transform: scale(0);
+  &.animate {
+    animation: ripple 0.65s linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes ripple {
+  100% {
+    opacity: 1;
+    transform: scale(2.5);
+  }
+}
