@@ -5,7 +5,8 @@ An implementation of Material Design Bottom Navigation using MaterializeCss
 
 It's just the Tabs from Materializecss with a nice ripple effect.<br>
 
-Here's an example: http://codepen.io/kernelmaster/pen/GqjqQw
+Here's an example: http://codepen.io/kernelmaster/pen/GqjqQw<br>
+You can use it with indicator too: http://codepen.io/kernelmaster/pen/YWGQVa
 
 ## Getting started
 
