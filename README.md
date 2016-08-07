@@ -1,12 +1,13 @@
 # js_bottom_tabs
-An implementation of Material Design Bottom Navigation using MaterializeCss
+
+An implementation of Material Design Bottom Navigation using [Materialize](http://materializecss.com/)
 
 ## How it works?
 
-It's just the Tabs from Materializecss with a nice ripple effect.<br>
+It's just the Tabs from Materialize with a nice ripple effect.<br>
 
-Here's an example: http://codepen.io/kernelmaster/pen/GqjqQw<br>
-You can use it with indicator too: http://codepen.io/kernelmaster/pen/YWGQVa
+Here's an example: <http://codepen.io/kernelmaster/pen/GqjqQw><br>
+You can use it with indicators too: <http://codepen.io/kernelmaster/pen/YWGQVa>
 
 ## Getting started
 
@@ -19,16 +20,16 @@ You can use it with indicator too: http://codepen.io/kernelmaster/pen/YWGQVa
 
   ```
   <div class="row">
-    <div class="col s12">
-      <ul class="bottom_tabs tabs">
-        <li class="tab col s3"><a class="active" href="#tab1" data-ripple-color="green">Tab 1</a></li>
-        <li class="tab col s3"><a href="#tab2" data-ripple-color="red">Tab 2</a></li>
-        <li class="tab col s3"><a href="#tab3" data-ripple-color="#212121">Tab 3</a></li>
-      </ul>
-    </div>
-    <div id="tab1" class="col s12">Tab 1</div>
-    <div id="tab2" class="col s12">Tab 2</div>
-    <div id="tab3" class="col s12">Tab 3</div>
+   <div class="col s12">
+     <ul class="bottom_tabs tabs">
+       <li class="tab col s3"><a class="active" href="#tab1" data-ripple-color="green">Tab 1</a></li>
+       <li class="tab col s3"><a href="#tab2" data-ripple-color="red">Tab 2</a></li>
+       <li class="tab col s3"><a href="#tab3" data-ripple-color="#212121">Tab 3</a></li>
+     </ul>
+   </div>
+   <div id="tab1" class="col s12">Tab 1</div>
+   <div id="tab2" class="col s12">Tab 2</div>
+   <div id="tab3" class="col s12">Tab 3</div>
   </div>
   ```
 
