@@ -1,6 +1,6 @@
 # js_bottom_tabs
 
-An implementation of [Material Design Bottom Navigation](https://material.google.com/components/bottom-navigation.html) using [Materialize](http://materializecss.com/)
+An implementation of the [Material Design Bottom Navigation](https://material.google.com/components/bottom-navigation.html) using [Materialize](http://materializecss.com/)
 
 ## How it works?
 
