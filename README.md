@@ -1,13 +1,13 @@
 # js_bottom_tabs
 
-An implementation of Material Design Bottom Navigation using [Materialize](http://materializecss.com/)
+An implementation of the [Material Design Bottom Navigation](https://material.google.com/components/bottom-navigation.html) using [Materialize](http://materializecss.com/)
 
 ## How it works?
 
-It's just the Tabs from Materialize with a nice ripple effect.<br>
+These are just the Materialize tabs combined with a nice ripple effect.<br>
 
 Here's an example: <http://codepen.io/kernelmaster/pen/GqjqQw><br>
-You can use it with indicators too: <http://codepen.io/kernelmaster/pen/YWGQVa>
+You can use it with a indicator too: <http://codepen.io/kernelmaster/pen/YWGQVa>
 
 ## Getting started
 
@@ -16,7 +16,7 @@ You can use it with indicators too: <http://codepen.io/kernelmaster/pen/YWGQVa>
 3. Add the class `bottom_tabs` to the element with the class `tabs`
 4. Add the attribute `data-ripple-color` to every `li`-element with the class `tab`. You can use css built-in values like `red`, `grey` etc. but also hex codes like `#212121`
 5. If you want to set an active tab, just add the `active` class as usual. If set, this will be the color used as default.
-6. This will be the result:
+6. The result should look as shown below 
 
   ```
   <div class="row">
